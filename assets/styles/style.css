@@ -1,6 +1,10 @@
 @import url('https://fonts.googleapis.com/css?family=Montserrat:500&display=swap');
 @import url('https://fonts.googleapis.com/css?family=Noto+Serif&display=swap');
 
+* {
+    overflow-x: hidden;
+}
+
 body {
     overflow: hidden;
     margin: 0;
