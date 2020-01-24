@@ -25,9 +25,9 @@ body {
 #particles-js h1 {
     font-family: Impact, sans-serif;
     text-shadow: 2px 2px 2px #333;
-    padding: 20px;
-    font-size: 2vw;
+    padding: 0;
     margin: 0;
+    font-size: 2vw;
 }
 
 #particles-js p {
@@ -36,11 +36,18 @@ body {
     font-size: 1vw;
 }
 
-@media screen and (max-width: 552px) {
+@media screen and (max-width: 813px) {
     #particles-js h1 {
         font-size: 25px;
     }
     #particles-js {
         font-size: 20px;
+    }
+    #particles-js h1 {
+        font-size: 5vw;
+    }
+    
+    #particles-js p {
+        font-size: 2vw;
     }
 }
