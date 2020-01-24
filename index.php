@@ -28,9 +28,9 @@
                     <h1>Habashy</h1>
                 </div>
                 <ul class="nav-links">
-                    <li><a hred="#">Home</a></li>
-                    <li><a hred="/about.php">About</a></li>
-                    <li><a hred="/last_works.php">Last Works</a></li>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="/about.php">About</a></li>
+                    <li><a href="/last_works.php">Last Works</a></li>
                 </ul>
                 <div class="burger">
                     <div class="line1"></div>
@@ -40,12 +40,22 @@
             </nav>
             <!-- content -->
             <div class="content">
-                <h1>Habashy for Advertising and photography</h1>
-                <br />
-                <p>All you will need to do the largest advertising campaign for your project and to reach the largest number of people;</p>
-                <br />
-                <p>With the best specialists in the field of design, printing, photography and montage.</p>
+                <div class="row">
+                    <div class="col-md-12 col-xs-12 col-sm-12 col-lg-12">
+                    <h1>Habashy for Advertising and photography</h1>
+                    <p>
+                        All you will need to do the largest advertising campaign for your project and to reach the largest number of people;
+                        <br />
+                        With the best specialists in the field of design, printing, photography and montage.
+                    </p>
+                    </div>
+                </div>
             </div>
+            <footer>
+                <div class="row">
+                    <div class="col-md-6 col-lg-6 col-xs-12 col-sm-12"></div>
+                </div>
+            </footer>
         </div>
         <!-- jquery -->
         <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
