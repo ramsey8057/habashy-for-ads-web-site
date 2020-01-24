@@ -19,7 +19,7 @@
         <!-- title tag -->
         <title>Habashy | Home</title>
     </head>
-    <body dir="en">
+    <body dir="ltr">
         <!-- particles -->
         <div id="particles-js">
             <!-- navbar -->    
@@ -38,6 +38,14 @@
                     <div class="line3"></div>
                 </div>
             </nav>
+            <!-- content -->
+            <div class="content">
+                <h1>Habashy for Advertising and photography</h1>
+                <br />
+                <p>All you will need to do the largest advertising campaign for your project and to reach the largest number of people;</p>
+                <br />
+                <p>With the best specialists in the field of design, printing, photography and montage.</p>
+            </div>
         </div>
         <!-- jquery -->
         <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>

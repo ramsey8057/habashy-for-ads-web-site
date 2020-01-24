@@ -7,6 +7,14 @@ body {
     color: #FFF;
 }
 
+.content {
+    position: absolute;
+    background-color: rgba(29, 27, 27, 0.705);
+    width: 100%;
+    min-height: 20%;
+    text-align: center;
+}
+
 #particles-js h1 {
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     text-shadow: 2px 2px 2px #333;
