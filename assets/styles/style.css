@@ -6,6 +6,7 @@ body {
     margin: 0;
     font: normal 16px Arial, Helvetica, sans-serif;
     color: #FFF;
+    overflow-x: hidden;
 }
 
 .content {
