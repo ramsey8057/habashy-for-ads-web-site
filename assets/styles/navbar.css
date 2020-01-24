@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Montserrat:500&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Noto+Serif&display=swap');
 
 nav {
     display: flex;
@@ -8,7 +8,7 @@ nav {
     align-items: center;
     background-color: #24252A;
     min-height: 8vh;
-    font-family: "Montserrat", sans-serif;
+    font-family: "Noto Serif", sans-serif;
     min-width: 100%;
 }
 
@@ -28,7 +28,7 @@ nav * {
 .nav-links {
     display: flex;
     justify-content: space-around;
-    width: 30%;
+    width: 20%;
 }
 
 .nav-links li {
@@ -61,9 +61,9 @@ nav * {
 }
 
 
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 1501px) {
     .nav-links {
-        width: 60%;
+        width: 35%;
     }
 }
 
