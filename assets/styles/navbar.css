@@ -7,8 +7,8 @@ nav {
     justify-content: space-around;
     align-items: center;
     background-color: rgb(27, 27, 29);
-    min-height: 5vh;
-    height: 5vh;
+    min-height: 7vh;
+    height: 7vh;
     font-family: "Noto Serif", sans-serif;
     min-width: 100%;
 }
@@ -80,7 +80,7 @@ nav * {
     .nav-links {
         position: absolute;
         right: 0px;
-        top: 5vh;
+        top: 7vh;
         background-color: #24252A;
         display: flex;
         flex-direction: column;
