@@ -1,0 +1,14 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:500&display=swap');
+
+body {
+    overflow: hidden;
+    margin: 0;
+    font: normal 16px Arial, Helvetica, sans-serif;
+    color: #FFF;
+}
+
+#particles-js h1 {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-shadow: 2px 2px 2px #333;
+    padding: 20px;
+}
