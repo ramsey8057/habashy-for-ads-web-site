@@ -23,31 +23,34 @@
         <!-- particles -->
         <div id="particles-js">
             <!-- navbar -->    
-            <nav>
-                <div class="logo">
-                    <h1>Habashy</h1>
+            <div class="menu-wrap">
+                <input type="checkbox" class="toggler"/>
+                <div class="hamburger"><div></div></div>
+                <div class="menu">
+                    <div>
+                        <div>
+                            <ul>
+                                <li><a href="#">Home</a></li>
+                                <li><a href="#">About</a></li>
+                                <li><a href="#">Last Works</a></li>
+                            </ul>
+                        </div>
+                    </div>
                 </div>
-                <ul class="nav-links">
-                    <li><a href="#">Home</a></li>
-                    <li><a href="/about.php">About</a></li>
-                    <li><a href="/last_works.php">Last Works</a></li>
-                </ul>
-                <div class="burger">
-                    <div class="line1"></div>
-                    <div class="line2"></div>
-                    <div class="line3"></div>
-                </div>
-            </nav>
+            </div>
             <!-- content -->
             <div class="content">
                 <div class="row">
                     <div class="col-md-12 col-xs-12 col-sm-12 col-lg-12">
-                    <h1>Habashy for Advertising and photography</h1>
-                    <p>
-                        All you will need to do the largest advertising campaign for your project and to reach the largest number of people;
-                        <br />
-                        With the best specialists in the field of design, printing, photography and montage.
-                    </p>
+                        <p>
+                            Welcome to
+                        </p>
+                        <h1>Habashy for Advertising and photography</h1>
+                        <p>
+                            All you will need to do the largest advertising campaign for your project and to reach the largest number of people;
+                            <br />
+                            With the best specialists in the field of design, printing, photography and montage.
+                        </p>
                     </div>
                 </div>
             </div>
@@ -71,6 +74,5 @@
         </script>
         <!-- scripts -->
         <script src="assets/scripts/global.js"></script>
-        <script src="assets/scripts/navbar.js"></script>
     </body>
 </html>
