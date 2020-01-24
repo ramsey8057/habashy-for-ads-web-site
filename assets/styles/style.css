@@ -2,7 +2,6 @@
 @import url('https://fonts.googleapis.com/css?family=Noto+Serif&display=swap');
 
 * {
-    overflow-x: hidden;
 }
 
 body {
@@ -18,8 +17,8 @@ body {
     width: 100%;
     min-height: 20%;
     text-align: center;
-    z-index: 0;
     padding: 5vw;
+    z-index: 1;
 }
 
 #particles-js h1 {
