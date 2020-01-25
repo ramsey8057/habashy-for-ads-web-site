@@ -52,7 +52,7 @@
                         <p>
                             Welcome to
                         </p>
-                        <h1>Habashy for Advertising and photography</h1>
+                        <h1>Habashy for Advertising and Photography</h1>
                         <p>
                             All you will need to do the largest advertising campaign for your project and to reach the largest number of people;
                             <br />
