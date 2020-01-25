@@ -24,10 +24,17 @@
     width: 60px;
     height: 60px;
     padding: 1rem;
-    background-color: rgba(13, 110, 139, 0.75);
     display: flex;
     align-items: center;
     justify-content: center;
+    overflow: hidden;
+    transition: 0.2s;
+}
+
+.menu-wrap .toggler:hover + .hamburger {
+    color: #255784;
+    background-color: rgba(13, 110, 139, 0.75);
+    box-shadow: 0 0 10px rgba(13, 110, 139, 0.75), 0 0 40px rgba(13, 110, 139, 0.75), 0 0 80px rgba(13, 110, 139, 0.75);
 }
 
 /* hamburger line */
