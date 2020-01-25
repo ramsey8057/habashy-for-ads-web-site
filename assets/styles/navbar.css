@@ -35,6 +35,7 @@
     color: #255784;
     background-color: rgba(13, 110, 139, 0.75);
     box-shadow: 0 0 10px rgba(13, 110, 139, 0.75), 0 0 40px rgba(13, 110, 139, 0.75), 0 0 80px rgba(13, 110, 139, 0.75);
+    transition-delay: 0.01s;
 }
 
 /* hamburger line */
@@ -152,6 +153,7 @@
 .menu-wrap .menu > div > div > ul > li > a:hover {
     color: rgb(13, 110, 139);
     text-shadow: 0 0 10px rgb(13, 110, 139), 0 0 40px rgb(13, 110, 139), 0 0 80px rgb(13, 110, 139);
+    transition-delay: 0.01s;
 }
 
 .menu-wrap .menu > div > div > ul > .active > a {
@@ -161,4 +163,5 @@
 .menu-wrap .menu > div > div > ul > .active > a:hover {
     color: rgb(105, 105, 105);
     text-shadow: 0 0 10px rgb(105, 105, 105), 0 0 40px rgb(105, 105, 105), 0 0 80px rgb(105, 105, 105);
+    transition-delay: 0.01s;
 }
