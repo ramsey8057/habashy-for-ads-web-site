@@ -29,13 +29,18 @@
     justify-content: center;
     overflow: hidden;
     transition: 0.2s;
+    border-radius: 5px;
+}
+
+.menu-wrap .hamburger span {
+    position: absolute;
+    display: block;
 }
 
 .menu-wrap .toggler:hover + .hamburger {
-    color: #255784;
-    background-color: rgba(13, 110, 139, 0.75);
-    box-shadow: 0 0 10px rgba(13, 110, 139, 0.75), 0 0 40px rgba(13, 110, 139, 0.75), 0 0 80px rgba(13, 110, 139, 0.75);
-    transition-delay: 0.01s;
+    color: var(--secondary-color);
+    background-color: var(--main-color-with-opacity);
+    box-shadow: 0 0 10px var(--main-color-with-opacity), 0 0 40px var(--main-color-with-opacity), 0 0 80px var(--main-color-with-opacity);
 }
 
 /* hamburger line */
@@ -113,7 +118,7 @@
 }
 
 .menu-wrap .menu > div {
-    background-color: rgba(24, 39, 51, 0.90);
+    background-color: var(--main-color-dark);
     border-radius: 50%;
     width: 400vw;
     height: 400vw;
@@ -141,7 +146,7 @@
 }
 
 .menu-wrap .menu > div > div > ul > .active {
-    color: rgb(105, 105, 105);
+    color: var(--disabled-color);
 }
 
 .menu-wrap .menu > div > div > ul > li > a {
@@ -151,9 +156,8 @@
 }
 
 .menu-wrap .menu > div > div > ul > li > a:hover {
-    color: rgb(13, 110, 139);
-    text-shadow: 0 0 10px rgb(13, 110, 139), 0 0 40px rgb(13, 110, 139), 0 0 80px rgb(13, 110, 139);
-    transition-delay: 0.01s;
+    color: var(--main-color);
+    text-shadow: 0 0 10px var(--main-color), 0 0 40px var(--main-color), 0 0 80px var(--main-color);
 }
 
 .menu-wrap .menu > div > div > ul > .active > a {
@@ -161,7 +165,6 @@
 }
 
 .menu-wrap .menu > div > div > ul > .active > a:hover {
-    color: rgb(105, 105, 105);
-    text-shadow: 0 0 10px rgb(105, 105, 105), 0 0 40px rgb(105, 105, 105), 0 0 80px rgb(105, 105, 105);
-    transition-delay: 0.01s;
+    color: var(--disabled-color);
+    text-shadow: 0 0 10px var(--disabled-color), 0 0 40px var(--disabled-color), 0 0 80px var(--disabled-color);
 }

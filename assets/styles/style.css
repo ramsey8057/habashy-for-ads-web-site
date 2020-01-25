@@ -1,6 +1,14 @@
 @import url('https://fonts.googleapis.com/css?family=Montserrat:500&display=swap');
 @import url('https://fonts.googleapis.com/css?family=Noto+Serif&display=swap');
 
+:root {
+    --main-color: rgb(13, 110, 139);
+    --main-color-with-opacity: rgba(13, 110, 139, 0.75);
+    --main-color-dark: rgba(24, 39, 51, 0.90);
+    --disabled-color: rgb(105, 105, 105);
+    --secondary-color: #255784;
+}
+
 body {
     overflow: hidden;
     margin: 0;

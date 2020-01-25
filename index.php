@@ -25,7 +25,13 @@
             <!-- navbar -->    
             <div class="menu-wrap">
                 <input type="checkbox" class="toggler"/>
-                <div class="hamburger"><div></div></div>
+                <div class="hamburger">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    <div></div>
+                </div>
                 <div class="menu">
                     <div>
                         <div>
