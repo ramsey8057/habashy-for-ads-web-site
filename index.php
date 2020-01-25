@@ -30,7 +30,8 @@
                     <div>
                         <div>
                             <ul>
-                                <li><a href="#">Home</a></li>
+                                <li><h1>Habashy for ads</h1></li>
+                                <li class="active"><a href="#">Home</a></li>
                                 <li><a href="#">About</a></li>
                                 <li><a href="#">Last Works</a></li>
                             </ul>
