@@ -151,6 +151,7 @@
 
 .menu-wrap .menu > div > div > ul > li > a:hover {
     color: rgb(13, 110, 139);
+    text-shadow: 0 0 10px rgb(13, 110, 139), 0 0 40px rgb(13, 110, 139), 0 0 80px rgb(13, 110, 139);
 }
 
 .menu-wrap .menu > div > div > ul > .active > a {
@@ -159,4 +160,5 @@
 
 .menu-wrap .menu > div > div > ul > .active > a:hover {
     color: rgb(105, 105, 105);
+    text-shadow: 0 0 10px rgb(105, 105, 105), 0 0 40px rgb(105, 105, 105), 0 0 80px rgb(105, 105, 105);
 }
