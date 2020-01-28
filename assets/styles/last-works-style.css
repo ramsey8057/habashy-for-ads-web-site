@@ -18,7 +18,13 @@ body {
 }
 
 .card {
-    background: linear-gradient(90deg, #352637, #060B20);
+    background: linear-gradient(
+        to right, 
+        #13182C 0%, 
+        #13182C 50%, 
+        #060B20 50%, 
+        #060B20 100%
+    );
 }
 
 .card:before {
@@ -62,8 +68,8 @@ body {
     font-family: 'Gelasio', sans-serif;
     font-size: 0.8vw;
     color: #fff;
-    text-align: center;
     text-shadow: 0 0 1px #fff, 0 0 2px #fff, 0 0 3px var(--dark-color), 0 0 4px var(--dark-color-with-opacity);
+    text-align: center;
 }
 
 .col-xs-12, .col-sm-12, .col-md-6, .col-lg-2 {

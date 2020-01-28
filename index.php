@@ -24,28 +24,7 @@
         <!-- particles -->
         <div id="particles-js">
             <!-- navbar -->
-            <div class="menu-wrap">
-                <input type="checkbox" class="toggler"/>
-                <div class="hamburger">
-                    <span></span>
-                    <span></span>
-                    <span></span>
-                    <span></span>
-                    <div></div>
-                </div>
-                <div class="menu">
-                    <div>
-                        <div>
-                            <ul>
-                                <li><h1>Habashy for ads</h1></li>
-                                <li class="active">Home</li>
-                                <li><a href="/about.php">About</a></li>
-                                <li><a href="/last_works.php">Last Works</a></li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-            </div>
+            <div include-html="assets/static/html-files/navbar.html" page-name="index"></div>
             <!-- content -->
             <div class="content">
                 <div class="row">
@@ -77,5 +56,6 @@
         </script>
         <!-- scripts -->
         <script src="assets/scripts/global.js"></script>
+        <script src="assets/scripts/include.js"></script>
     </body>
 </html>

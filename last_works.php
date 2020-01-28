@@ -26,39 +26,20 @@
         <!-- particles -->
         <div id="particles-js">
             <!-- navbar -->
-            <div class="menu-wrap">
-                <input type="checkbox" class="toggler"/>
-                <div class="hamburger">
-                    <span></span>
-                    <span></span>
-                    <span></span>
-                    <span></span>
-                    <div></div>
-                </div>
-                <div class="menu">
-                    <div>
-                        <div>
-                            <ul>
-                                <li><h1>Habashy for ads</h1></li>
-                                <li><a href="/">Home</a></li>
-                                <li><a href="/about.php">About</a></li>
-                                <li class="active">Last Works</li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-            </div>
+            <div include-html="assets/static/html-files/navbar.html" page-name="Last Works"></div>
             <!-- content -->
             <div class="row overflow-auto">
                 <?php
                 for($i = 0; $i < 9; $i++) {
                     echo '
-                        <div class="col-xs-12 col-sm-12 col-md-6 col-lg-4 rounded" style="padding-bottom: 15px;">
+                        <div class="col-xs-12 col-sm-12 col-md-6 col-lg-4 rounded" style="padding-bottom: 80px;">
                             <div class="card" style="width: 18rem;">
                                 <img class="card-img-top" src="assets/images/uploads/1.jpg" alt="Card image cap" />
                                 <div class="card-body">
                                     <h5 class="card-title" word="Card Title">Card title</h5>
-                                    <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores nostrum laboriosam, vitae voluptatibus vel, magni quis veritatis nemo nesciunt sapiente neque similique eaque corrupti suscipit mollitia soluta perferendis accusamus. Et?</p>
+                                    <p class="card-text">
+                                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores nostrum laboriosam, vitae voluptatibus vel, magni quis veritatis nemo nesciunt sapiente neque similique eaque corrupti suscipit mollitia soluta perferendis accusamus. Et?
+                                    </p>
                                     <a href="#" class="btn btn-primary">Go somewhere</a>
                                 </div>
                             </div>
@@ -82,5 +63,6 @@
         </script>
         <!-- scripts -->
         <script src="assets/scripts/global.js"></script>
+        <script src="assets/scripts/include.js"></script>
     </body>
 </html>
