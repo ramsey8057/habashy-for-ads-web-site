@@ -43,6 +43,14 @@
     box-shadow: 0 0 10px var(--main-color-with-opacity), 0 0 40px var(--main-color-with-opacity), 0 0 80px var(--main-color-with-opacity);
 }
 
+.menu h1 {
+    font-family: Impact, sans-serif;
+    text-shadow: 2px 2px 2px var(--dark-color);
+    padding: 0;
+    margin: 0;
+    font-size: 2vw;
+}
+
 /* hamburger line */
 .menu-wrap .hamburger > div {
     position: relative;

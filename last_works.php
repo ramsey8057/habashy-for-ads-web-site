@@ -12,13 +12,14 @@
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
         <!-- styles link -->
         <link rel="stylesheet" href="assets/styles/colors.css">
-        <link rel="stylesheet" href="assets/styles/home-style.css">
+        <link rel="stylesheet" href="assets/styles/last-works-style.css">
         <link rel="stylesheet" href="assets/styles/navbar.css">
         <link rel="stylesheet" href="assets/styles/particles.css">
+        <link rel="stylesheet" href="assets/styles/card.css">
         <!-- title image -->
         <link rel="icon" href="assets/images/habashy.jpg">
         <!-- title tag -->
-        <title>Habashy | Home</title>
+        <title>Habashy | Last works</title>
     </head>
     <body dir="ltr">
         <!-- particles -->
@@ -38,29 +39,32 @@
                         <div>
                             <ul>
                                 <li><h1>Habashy for ads</h1></li>
-                                <li class="active">Home</li>
+                                <li><a href="/">Home</a></li>
                                 <li><a href="/about.php">About</a></li>
-                                <li><a href="/last_works.php">Last Works</a></li>
+                                <li class="active">Last Works</li>
                             </ul>
                         </div>
                     </div>
                 </div>
             </div>
             <!-- content -->
-            <div class="content">
-                <div class="row">
-                    <div class="col-md-12 col-xs-12 col-sm-12 col-lg-12 title">
-                        <p>
-                            Welcome to
-                        </p>
-                        <h1>Habashy for Advertising and Photography</h1>
-                        <p>
-                            All you will need to do the largest advertising campaign for your project and to reach the largest number of people;
-                            <br />
-                            With the best specialists in the field of design, printing, photography and montage.
-                        </p>
-                    </div>
-                </div>
+            <div class="row overflow-auto">
+                <?php
+                for($i = 0; $i < 9; $i++) {
+                    echo '
+                        <div class="col-xs-12 col-sm-12 col-md-6 col-lg-4 rounded" style="padding-bottom: 15px;">
+                            <div class="card" style="width: 18rem;">
+                                <img class="card-img-top" src="assets/images/uploads/1.jpg" alt="Card image cap" />
+                                <div class="card-body">
+                                    <h5 class="card-title">Card title</h5>
+                                    <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores nostrum laboriosam, vitae voluptatibus vel, magni quis veritatis nemo nesciunt sapiente neque similique eaque corrupti suscipit mollitia soluta perferendis accusamus. Et?</p>
+                                    <a href="#" class="btn btn-primary">Go somewhere</a>
+                                </div>
+                            </div>
+                        </div>
+                    ';
+                }
+                ?>
             </div>
         </div>
         <!-- footer -->

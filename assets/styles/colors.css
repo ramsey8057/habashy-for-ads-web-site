@@ -1,0 +1,10 @@
+:root {
+    --main-color: rgb(13, 110, 139);
+    --main-color-with-opacity: rgba(13, 110, 139, 0.75);
+    --main-color-dark: rgba(24, 39, 51, 0.90);
+    --disabled-color: rgb(105, 105, 105);
+    --secondary-color: #255784;
+    --dark-color-with-opacity: rgba(27, 27, 29, 0.5);
+    --dark-color: #333;
+    --neon-purple-color: #AB20FD;
+}

@@ -1,14 +1,6 @@
 @import url('https://fonts.googleapis.com/css?family=Montserrat:500&display=swap');
 @import url('https://fonts.googleapis.com/css?family=Noto+Serif&display=swap');
 
-:root {
-    --main-color: rgb(13, 110, 139);
-    --main-color-with-opacity: rgba(13, 110, 139, 0.75);
-    --main-color-dark: rgba(24, 39, 51, 0.90);
-    --disabled-color: rgb(105, 105, 105);
-    --secondary-color: #255784;
-}
-
 body {
     overflow: hidden;
     margin: 0;
@@ -19,17 +11,16 @@ body {
 
 .content {
     position: absolute;
-    background-color: rgba(27, 27, 29, 0.5);
+    background-color: var(--dark-color-with-opacity);
     width: 100%;
     min-height: 20%;
-    text-align: center;
     padding: 5vw;
     z-index: 0;
 }
 
 #particles-js h1 {
     font-family: Impact, sans-serif;
-    text-shadow: 2px 2px 2px #333;
+    text-shadow: 2px 2px 2px var(--dark-color);
     padding: 0;
     margin: 0;
     font-size: 2vw;
@@ -41,18 +32,47 @@ body {
     font-size: 1vw;
 }
 
-@media screen and (max-width: 813px) {
-    #particles-js h1 {
-        font-size: 25px;
-    }
-    #particles-js {
-        font-size: 20px;
-    }
+.col-md-12 {
+    text-justify: center;
+    text-align: center;
+}
+
+/* media for extra small sizes */
+@media (min-width: 0) {
     #particles-js h1 {
         font-size: 5vw;
     }
-    
+    #particles-js p {
+        font-size: 3vw;
+    }
+}
+
+/* media for small sizes */
+@media (min-width: 576px) {
+    #particles-js h1 {
+        font-size: 4vw;
+    }
     #particles-js p {
         font-size: 2vw;
+    }
+}
+
+/* media for medium sizes */
+@media (min-width: 992px) {
+    #particles-js h1 {
+        font-size: 4vw;
+    }
+    #particles-js p {
+        font-size: 1.5vw;
+    }
+}
+
+/* media for large sizes */
+@media (min-width: 1200px) {
+    #particles-js h1 {
+        font-size: 5vw;
+    }
+    #particles-js p {
+        font-size: 1.5vw;
     }
 }

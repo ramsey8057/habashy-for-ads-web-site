@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css?family=Bebas+Neue&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Gelasio&display=swap');
+
+body {
+    margin: 0;
+    font: normal 16px Arial, Helvetica, sans-serif;
+    color: #FFF;
+    overflow-x: hidden;
+    overflow-y: auto;
+}
+
+.row {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    z-index: 0;
+}
+
+.card-title {
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 1.5vw;
+}
+
+.card-text {
+    font-family: 'Gelasio', sans-serif;
+    font-size: 0.8vw;
+}
+
+/* media for extra small sizes */
+@media (min-width: 0) {
+    .card-title {
+        font-size: 4vw;
+    }
+    .card-text {
+        font-size: 2vw;
+    }
+}
+
+/* media for small sizes */
+@media (min-width: 576px) {
+    .card-title {
+        font-size: 4vw;
+    }
+    .card-text {
+        font-size: 1.5vw;
+    }
+}
+
+/* media for medium sizes */
+@media (min-width: 992px) {
+    .card-title {
+        font-size: 3vw;
+    }
+    .card-text {
+        font-size: 1.3vw;
+    }
+}
+
+/* media for large sizes */
+@media (min-width: 1200px) {
+    .card-title {
+        font-size: 2.6vw;
+    }
+    .card-text {
+        font-size: 0.85vw;
+    }
+}
+
+/* media for extra large sizes */
+@media (min-width: 1889px) {
+    .card-title {
+        font-size: 2.2vw;
+    }
+    .card-text {
+        font-size: 0.5vw;
+    }
+}
