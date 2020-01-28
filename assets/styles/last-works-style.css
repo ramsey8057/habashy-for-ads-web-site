@@ -64,7 +64,7 @@ body {
 
 .card:before,
 .card:after {
-    background: linear-gradient(-235deg, var(--neon-purple-color), #060C21, var(--main-color));
+    background: linear-gradient(-235deg, var(--main-color), #060C21, var(--neon-purple-color));
 }
 
 .card-title {
