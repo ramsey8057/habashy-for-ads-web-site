@@ -5,8 +5,7 @@ body {
     margin: 0;
     font: normal 16px Arial, Helvetica, sans-serif;
     color: #FFF;
-    overflow-x: hidden;
-    overflow-y: auto;
+    overflow: hidden;
 }
 
 .row {
@@ -14,6 +13,9 @@ body {
     width: 100%;
     height: 100%;
     z-index: 0;
+    padding-top: 50px;
+    padding-left: 25px;
+    padding-right: 25px;
 }
 
 .card-title {

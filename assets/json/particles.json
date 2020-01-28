@@ -63,5 +63,8 @@
       }
     }
   },
+  "interactivity": {
+    "detect_on": "window"
+  },
   "retina_detect": true
 }
