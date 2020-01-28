@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css?family=Gelasio&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Poppins&display=swap');
+
 body {
     overflow: hidden;
     margin: 0;
@@ -15,7 +18,7 @@ body {
     z-index: 0;
 }
 
-#particles-js h1 {
+#particles-js .content .row h1 {
     font-family: Impact, sans-serif;
     text-shadow: 2px 2px 2px var(--dark-color);
     padding: 0;
@@ -23,53 +26,54 @@ body {
     font-size: 2vw;
 }
 
-#particles-js p {
+#particles-js .content .row p {
     margin: 0;
     padding: 0;
     font-size: 1vw;
+    font-family: 'Poppins', sans-serif;
 }
 
-.col-md-12 {
+.col-md-12, .col-xs-12, .col-sm-12, .col-lg-12 {
     text-justify: center;
     text-align: center;
 }
 
 /* media for extra small sizes */
 @media (min-width: 0) {
-    #particles-js h1 {
+    #particles-js .content .row h1 {
         font-size: 5vw;
     }
-    #particles-js p {
+    #particles-js .content .row p {
         font-size: 3vw;
     }
 }
 
 /* media for small sizes */
 @media (min-width: 576px) {
-    #particles-js h1 {
+    #particles-js .content .row h1 {
         font-size: 4vw;
     }
-    #particles-js p {
+    #particles-js .content .row p {
         font-size: 2vw;
     }
 }
 
 /* media for medium sizes */
 @media (min-width: 992px) {
-    #particles-js h1 {
+    #particles-js .content .row h1 {
         font-size: 4vw;
     }
-    #particles-js p {
+    #particles-js .content .row p {
         font-size: 1.5vw;
     }
 }
 
 /* media for large sizes */
 @media (min-width: 1200px) {
-    #particles-js h1 {
+    #particles-js .content .row h1 {
         font-size: 5vw;
     }
-    #particles-js p {
+    #particles-js .content .row p {
         font-size: 1.5vw;
     }
 }
