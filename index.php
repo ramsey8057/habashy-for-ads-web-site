@@ -43,7 +43,9 @@
             </div>
         </div>
         <!-- footer -->
-        <!-- TODO: footer here -->
+        <footer>
+            <!-- TODO: footer here -->
+        </footer>
         <!-- jquery -->
         <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
         <!-- bootstrap scripts CDN -->
@@ -54,7 +56,7 @@
         <script>
             particlesJS.load("particles-js", "assets/json/particles.json");
         </script>
-        <!-- scripts -->
+        <!-- my scripts -->
         <script src="assets/scripts/global.js"></script>
         <script src="assets/scripts/include.js"></script>
     </body>
