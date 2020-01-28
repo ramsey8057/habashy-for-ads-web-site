@@ -40,7 +40,9 @@
                                     <p class="card-text">
                                     Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores nostrum laboriosam, vitae voluptatibus vel, magni quis veritatis nemo nesciunt sapiente neque similique eaque corrupti suscipit mollitia soluta perferendis accusamus. Et?
                                     </p>
+                                    <!--
                                     <a href="#" class="btn btn-primary">Go somewhere</a>
+                                    -->
                                 </div>
                             </div>
                         </div>
