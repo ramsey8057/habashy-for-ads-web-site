@@ -6,6 +6,7 @@ body {
     font: normal 16px Arial, Helvetica, sans-serif;
     color: #FFF;
     overflow: hidden;
+    display: flex;
 }
 
 .row {
@@ -13,9 +14,6 @@ body {
     width: 100%;
     height: 100%;
     z-index: 0;
-    padding-top: 50px;
-    padding-left: 25px;
-    padding-right: 25px;
 }
 
 .card-title {
@@ -26,6 +24,12 @@ body {
 .card-text {
     font-family: 'Gelasio', sans-serif;
     font-size: 0.8vw;
+}
+
+.col-xs-12, .col-sm-12, .col-md-6, .col-lg-2 {
+    display: flex;
+    justify-content: center;
+    align-content: center;
 }
 
 /* media for extra small sizes */
@@ -44,7 +48,7 @@ body {
         font-size: 4vw;
     }
     .card-text {
-        font-size: 1.5vw;
+        font-size: 1.8vw;
     }
 }
 
