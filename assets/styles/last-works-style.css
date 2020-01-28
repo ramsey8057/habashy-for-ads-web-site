@@ -1,5 +1,5 @@
-@import url('https://fonts.googleapis.com/css?family=Bebas+Neue&display=swap');
 @import url('https://fonts.googleapis.com/css?family=Gelasio&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Poppins&display=swap');
 
 body {
     margin: 0;
@@ -14,16 +14,56 @@ body {
     width: 100%;
     height: 100%;
     z-index: 0;
+    padding-top: 20px;
+}
+
+.card {
+    background: linear-gradient(90deg, #352637, #060B20);
+}
+
+.card:before {
+    content: '';
+    position: absolute;
+    top: -2px;
+    left: -2px;
+    right: -2px;
+    bottom: -2px;
+    background-color: #FFF;
+    z-index: -1;
+}
+
+.card:after {
+    content: '';
+    position: absolute;
+    top: -2px;
+    left: -2px;
+    right: -2px;
+    bottom: -2px;
+    background-color: #FFF;
+    z-index: -2;
+    filter: blur(40px);
+}
+
+.card:before,
+.card:after {
+    background: linear-gradient(-235deg, var(--neon-purple-color), #060C21, var(--main-color));
 }
 
 .card-title {
-    font-family: 'Bebas Neue', sans-serif;
+    font-family: 'Poppins', sans-serif;
     font-size: 1.5vw;
+    text-transform: uppercase;
+    color: #fff;
+    text-align: center;
+    text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px var(--main-color), 0 0 40px var(--main-color-with-opacity);
 }
 
 .card-text {
     font-family: 'Gelasio', sans-serif;
     font-size: 0.8vw;
+    color: #fff;
+    text-align: center;
+    text-shadow: 0 0 1px #fff, 0 0 2px #fff, 0 0 3px var(--dark-color), 0 0 4px var(--dark-color-with-opacity);
 }
 
 .col-xs-12, .col-sm-12, .col-md-6, .col-lg-2 {
@@ -75,7 +115,7 @@ body {
 /* media for extra large sizes */
 @media (min-width: 1889px) {
     .card-title {
-        font-size: 2.2vw;
+        font-size: 1.5vw;
     }
     .card-text {
         font-size: 0.5vw;

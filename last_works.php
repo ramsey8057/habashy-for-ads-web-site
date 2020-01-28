@@ -16,6 +16,7 @@
         <link rel="stylesheet" href="assets/styles/navbar.css">
         <link rel="stylesheet" href="assets/styles/particles.css">
         <link rel="stylesheet" href="assets/styles/card.css">
+        <link rel="stylesheet" href="assets/styles/scrollbar.css">
         <!-- title image -->
         <link rel="icon" href="assets/images/habashy.jpg">
         <!-- title tag -->
@@ -56,7 +57,7 @@
                             <div class="card" style="width: 18rem;">
                                 <img class="card-img-top" src="assets/images/uploads/1.jpg" alt="Card image cap" />
                                 <div class="card-body">
-                                    <h5 class="card-title">Card title</h5>
+                                    <h5 class="card-title" word="Card Title">Card title</h5>
                                     <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores nostrum laboriosam, vitae voluptatibus vel, magni quis veritatis nemo nesciunt sapiente neque similique eaque corrupti suscipit mollitia soluta perferendis accusamus. Et?</p>
                                     <a href="#" class="btn btn-primary">Go somewhere</a>
                                 </div>
