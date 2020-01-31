@@ -1,4 +1,6 @@
-function includeHtml() {
+const includeHtml = () => {
+
+    console.log("Hello, World");
 
     var z, i, element, file, xhttp;
     z = document.getElementsByTagName("*");
@@ -31,6 +33,4 @@ function includeHtml() {
 
     }
 
-}
-
-includeHtml();
+};

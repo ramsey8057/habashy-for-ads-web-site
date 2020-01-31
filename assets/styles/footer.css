@@ -1,0 +1,105 @@
+.company-name {
+    font-size: 2vh;
+    font-family: Impact, sans-serif;
+    text-shadow: 2px 2px 2px var(--dark-color);
+    padding: 0;
+    margin: 0;
+}
+
+.footer-links a {
+    color: inherit;
+    text-decoration: none;
+    transition: color 0.4s ease;
+}
+
+.footer-links a:hover {
+    color: var(--main-color);
+    text-shadow: 0 0 10px var(--main-color), 0 0 40px var(--main-color), 0 0 80px var(--main-color);
+}
+
+.footer-copy-right {
+    color: #4D4D4D;
+}
+
+.footer-map-div a,
+.footer-phone-div a,
+.footer-email-div a,
+.footer-contacts-links a {
+    display: block;
+    width: 50px;
+    height: 50px;
+    background-color: #18191F;
+    line-height: 55px;
+    text-align: center;
+    margin: 0 10px;
+    border-radius: 15px;
+    box-shadow: -2px -2px 3px rgba(255, 255, 255, 0.05),
+                 3px  3px 3px rgba(0  , 0  , 0  , 0.2 );
+}
+
+.footer-map-div .map {
+    font-size: 22px;
+    color: #FFF;
+}
+
+.footer-map-div a:hover .map {
+    color: #EA4335;
+    text-shadow: 0 0 15px #EA4335;
+    transition: all 1s;
+}
+
+.footer-phone-div .phone {
+    font-size: 22px;
+    color: #FFF;
+}
+
+.footer-phone-div a:hover .phone {
+    color: #64B628;
+    text-shadow: 0 0 15px #64B628;
+    transition: all 1s;
+}
+
+.footer-email-div .email {
+    font-size: 22px;
+    color: #FFF;
+}
+
+.footer-email-div a:hover .email {
+    color: #2AA7DC;
+    text-shadow: 0 0 15px #2AA7DC;
+    transition: all 1s;
+}
+
+.footer-about-word {
+    color: #FFF;
+    font-weight: bold;
+    font-size: 2vh;
+}
+
+.footer-about-content {
+    color: #78787D;
+    margin: 0;
+    padding: 0;
+}
+
+.footer-contacts-links .facebook {
+    font-size: 22px;
+    color: #FFF;
+}
+
+.footer-contacts-links a:hover .facebook {
+    color: #4267B2;
+    text-shadow: 0 0 15px #4267B2;
+    transition: all 1s;
+}
+
+.footer-contacts-links .twitter {
+    font-size: 22px;
+    color: #FFF;
+}
+
+.footer-contacts-links a:hover .twitter {
+    color: #1C98E4;
+    text-shadow: 0 0 15px #1C98E4;
+    transition: all 1s;
+}

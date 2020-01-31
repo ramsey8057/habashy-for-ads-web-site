@@ -64,7 +64,12 @@
     }
   },
   "interactivity": {
-    "detect_on": "window"
+    "detect_on": "window",
+    "events": {
+      "onclick": {
+        "enable": false
+      }
+    }
   },
   "retina_detect": true
 }

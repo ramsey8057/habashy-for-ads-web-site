@@ -14,33 +14,24 @@
         <link rel="stylesheet" href="assets/styles/colors.css">
         <link rel="stylesheet" href="assets/styles/navbar.css">
         <link rel="stylesheet" href="assets/styles/particles.css">
-        <link rel="stylesheet" href="assets/styles/home-style.css">
-        <link rel="stylesheet" href="assets/styles/footer.css">
+        <link rel="stylesheet" href="assets/styles/recommendations-and-reviews-style.css">
+        <!-- facebook sdk CDN -->
+        <script src="https://sdk.accountkit.com/en_US/sdk.js"></script>
         <!-- title image -->
         <link rel="icon" href="assets/images/habashy.jpeg">
         <!-- title tag -->
-        <title>Habashy | Home</title>
+        <title>Habashy | Recommendations and Reviews</title>
     </head>
-    <body dir="ltr">
+    <body>
+        <!-- load facebook api -->
+        <script src="assets/scripts/facebookAPI/facebook_api_init.js"></script>
         <!-- particles -->
         <div id="particles-js">
             <!-- navbar -->
             <div include-html="assets/static/html-files/navbar.html" page-name="index"></div>
             <!-- content -->
             <div class="content">
-                <div class="row">
-                    <div class="col-md-12 col-xs-12 col-sm-12 col-lg-12 title">
-                        <p>
-                            Welcome to
-                        </p>
-                        <h1>Habashy for Advertising and Photography</h1>
-                        <p>
-                            All you will need to do the largest advertising campaign for your project and to reach the largest number of people;
-                            <br />
-                            With the best specialists in the field of design, printing, photography and montage.
-                        </p>
-                    </div>
-                </div>
+                <!-- TODO: add page content here -->
             </div>
         </div>
         <!-- footer -->
@@ -60,8 +51,10 @@
         <!-- my scripts -->
         <script src="assets/scripts/global.js"></script>
         <script src="assets/scripts/include.js"></script>
+        <script src="assets/scripts/facebookAPI/get_reviews.js"></script>
         <script>
             includeHtml();
+            getReviews();
         </script>
     </body>
 </html>

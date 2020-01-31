@@ -10,15 +10,17 @@
         <meta http-equiv="X-UA-Compatible" content="ie=edge">
         <!-- bootstrap styles CDN -->
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+        <!-- font awesome -->
+        <link rel="stylesheet" href="assets/styles/fontawesome.min.css">
         <!-- styles link -->
         <link rel="stylesheet" href="assets/styles/colors.css">
-        <link rel="stylesheet" href="assets/styles/last-works-style.css">
         <link rel="stylesheet" href="assets/styles/navbar.css">
         <link rel="stylesheet" href="assets/styles/particles.css">
         <link rel="stylesheet" href="assets/styles/card.css">
-        <link rel="stylesheet" href="assets/styles/scrollbar.css">
+        <link rel="stylesheet" href="assets/styles/last-works-style.css">
+        <link rel="stylesheet" href="assets/styles/footer.css">
         <!-- title image -->
-        <link rel="icon" href="assets/images/habashy.jpg">
+        <link rel="icon" href="assets/images/habashy.jpeg">
         <!-- title tag -->
         <title>Habashy | Last works</title>
     </head>
@@ -33,7 +35,7 @@
                 for($i = 0; $i < 9; $i++) {
                     echo '
                         <div class="col-xs-12 col-sm-12 col-md-6 col-lg-4 rounded" style="padding-bottom: 80px;">
-                            <div class="card" style="width: 18rem;">
+                            <div class="card" style="width: 18rem;" onclick="lastWorks(event)">
                                 <img class="card-img-top" src="assets/images/uploads/1.jpg" alt="Card image cap" />
                                 <div class="card-body">
                                     <h5 class="card-title" word="Card Title">Card title</h5>
@@ -49,17 +51,66 @@
                     ';
                 }
                 ?>
+                <div class="col-md-12 col-sm-12 col-lg-12 col-xs-12" style="background: #333332;">
+                    <div class="col-md-4 col-sm-12 col-lg-4 col-xs-12">
+                        <div class="row">
+                            <div class="col-md-12 col-sm-12 col-lg-12 col-xs-12">
+                                <span class="company-name">Habashy for Ads</span>
+                            </div>
+                            <div class="col-md-12 col-sm-12 col-lg-12 col-xs-12 footer-links">
+                                <a href="/">Home</a> | 
+                                <a href="/about.php">About</a> | 
+                                <a href="/last_works.php">Last Works</a> | 
+                                <a href="/pricing.php">Pricing</a> | 
+                                <a href="/recommendations_and_reviews.php">Recommendations and Reviews</a>
+                            </div>
+                            <div class="col-md-12 col-sm-12 col-lg-12 col-xs-12">
+                                <p class="footer-copy-right">Habashy for ads &copy 2020</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 col-sm-12 col-lg-4 col-xs-12">
+                        <div class="row">
+                            <div class="col-md-12 col-sm-12 col-lg-12 col-xs-12 footer-map-div">
+                                <a href="https://g.page/Habashyads?share"><i class="fas fa-map-marker-alt map"></i></a>
+                                <p>فاطمة الزهراء، العبور، محافظة القاهرة‬ 11828</p>
+                            </div>
+                            <div class="col-md-12 col-sm-12 col-lg-12 col-xs-12 footer-phone-div">
+                                <a><i class="fas fa-phone-alt phone"></i></a>
+                                <p>+20 120 564 5453</p>
+                            </div>
+                            <div class="col-md-12 col-sm-12 col-lg-12 col-xs-12 footer-email-div">
+                                <a><i class="fas fa-envelope email"></i></a>
+                                <p>example@exmaple.com</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4 col-sm-12 col-lg-4 col-xs-12">
+                        <div class="row">
+                            <div class="col-md-12 col-sm-12 col-lg-12 col-xs-12">
+                                <p class="footer-about-word">About habashy</p>
+                            </div>
+                            <div class="col-md-12 col-sm-12 col-lg-12 col-xs-12">
+                                <p class="footer-about-content">
+                                    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Odit repellendus amet, soluta dignissimos expedita, consectetur modi ex voluptas accusantium minus omnis id, officiis quam neque praesentium quisquam. Veniam, nihil ab!
+                                </p>
+                            </div>
+                            <div class="col-md-12 col-sm-12 col-lg-12 col-xs-12 footer-contacts-links">
+                                <a href="https://www.facebook.com/Management.Ahmed.habashy/"><i class="fab fa-facebook-f facebook"></i></a>
+                                <a href="https://twitter.com/habashy511"><i class="fab fa-twitter twitter"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
-        <!-- footer -->
-        <footer>
-            <!-- TODO: footer here -->
-        </footer>
         <!-- jquery -->
         <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
         <!-- bootstrap scripts CDN -->
         <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
         <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+        <!-- font awesome scripts -->
+        <script src="assets/scripts/fontawesome.min.js"></script>
         <!-- particles scripts -->
         <script src="https://cdn.jsdelivr.net/npm/particles.js@2.0.0/particles.min.js"></script>
         <script>
@@ -68,5 +119,9 @@
         <!-- my scripts -->
         <script src="assets/scripts/global.js"></script>
         <script src="assets/scripts/include.js"></script>
+        <script src="assets/scripts/last_works.js"></script>
+        <script>
+            includeHtml();
+        </script>
     </body>
 </html>
